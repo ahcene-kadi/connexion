@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="connexion.css" rel="stylesheet">
+      <title>inscription</title>
+   </head>
+   <body>
+      <form class="inscription" action="connexion.html" method="">
+         <h2>Registration</h2>
+         <div>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last name</label>
+            <input type="text" id=lname name="lname" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="dob">Date of birth</label>
+            <input type="date" id="dob" name="dob">
+            <label for="login">login</label>
+            <input type="text" id="login" nom="login" required>
+            <label for="pass">Choose password</label>
+            <input type="password" id="pass" name="pass" required>
+            <label for="confirmpass">Confirm password</label>
+            <input type="password" id="confirmpass" name="confirmpass" required>
+            <fieldset>
+               <legend>Sex</legend>
+               </br>
+               <label for="m">Male</label>
+               <input type="radio" id="m" name="m" value="male" required>
+               <label for="f">Female</label>
+               <input type="radio" id="f" name="f" value="female" required>
+            </fieldset>
+            </br>
+            <label for="education">Education</label>
+            <select id="education" name="education" required>
+               <optgroup label="diplome">
+                  <option value="Aucun">None</option>
+                  <option value="BAC">BAC</option>
+                  <option value="BTS/licence">BTS/licence</option>
+                  <option value="Master">Master</option>
+                  <option value="Doctorat">Doctorat</option>
+               </optgroup>
+            </select>
+            <label>Phone</label>
+            <input type="tel"></br>
+            <textarea name="presentation" placeholder="Introduce yourself"></textarea>
+            <fieldset>
+               <legend>Hobbies</legend>
+               </br>
+               <label for="cinema">Cinema</label>
+               <input type="checkbox" id="cinema" name="cinéma">
+               <label for="sport">Sport</label>
+               <input type="checkbox" id="sport" name="sport">
+               <label for="literature">Literature</label>
+               <input type="checkbox" id="literature" name="literature">
+               <label for="computer science">computer science</label>
+               <input type="checkbox" id="computer science" name="computer science">
+            </fieldset>
+            </br>
+            <label for="send"></label>
+            <input type="submit" id="send" value="send"></br>
+         </div>
+      </form>
+   </body>
+</html>

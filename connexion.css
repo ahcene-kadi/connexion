@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url(pngtree-japanese-travel-cherry-blossom-season-banner-background-image_242305.jpg) no-repeat center fixed;
+	background-size: cover;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+}
+
+label {
+	display: block;	
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+a {
+	font-size: 15px;
+	color: black;
+}
+
+select {
+	margin-bottom: 10px;
+}
+
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.connexion {
+	background: rosybrown;
+	margin: 5%;
+	opacity: 0.5;
+	border-radius: 4px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding: 25px;
+}
+
+.inscription {
+	background: rosybrown;
+	opacity: 0.5;
+	border-radius: 4px;
+	margin: 5%;
+	padding-bottom: 10px;
+	padding: 25px;
+}
+
+.motdepasse {
+	background: rosybrown;
+	margin: 5%;
+	opacity: 0.5;
+	border-radius: 4px;
+	padding-bottom: 10px;
+	padding: 25px;
+	text-align: center;
+}
+
+fieldset {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(78, 59, 59);
+	border-radius: 8px;
+}
